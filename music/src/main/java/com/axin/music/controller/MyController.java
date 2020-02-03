@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/axin")
 public class MyController {
     
+    //test
     @RequestMapping("/music")
     public String listen() {
         return "/musicDemo.html";
